@@ -17,7 +17,7 @@
 ;converts a list of numerical values to a integer regarding the exponant
 (defun make_int (xs exp)
                    (if
-                     (null xs) 
+                    (null xs) 
 
                     0
                    

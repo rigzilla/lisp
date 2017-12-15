@@ -6,7 +6,7 @@
                    (if
                      (< a b) 
 
-                     (append (list a))
+                    (append (list a))
                    
                     (append (list
                      (mod a b))
@@ -19,7 +19,7 @@
                    (if
                      (null xs) 
 
-                     0
+                    0
                    
                     (+
                     (*(first xs) (expt 10 exp))
@@ -35,3 +35,5 @@
 
 ;testing the fucntion on example values and printing the result                   
 (print(pos_not_main 42 2))
+
+

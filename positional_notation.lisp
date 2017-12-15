@@ -4,7 +4,7 @@
 ;recursive function to convert the given number
 (defun pos_not (a b)
                    (if
-                     (< a b) 
+                    (< a b) 
 
                     (append (list a))
                    

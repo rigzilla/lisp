@@ -34,4 +34,4 @@
 
 
 ;testing the fucntion on example values and printing the result                   
-(print(pos_not_main 111 2))
+(print(pos_not_main 42 2))
